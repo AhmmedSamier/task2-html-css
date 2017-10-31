@@ -1,0 +1,200 @@
+body
+{
+	height: 1500px;
+	text-transform: capitalize;
+}
+
+h1
+{
+	text-align: left;
+	margin: 5px auto 5px 15px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.nav-bar ul
+{
+	overflow: hidden;
+	margin: 0;
+	height: 60px;
+	background-color: #E62F05;
+	padding: 0 25px 0 40px
+
+}
+
+.nav-bar ul li
+{
+	float: left;
+	color: #F4D5CD;
+	font-size: 22px;
+	margin: 15px;
+	text-align: left;
+}
+
+/*body of the page*/
+.content
+{
+	overflow: hidden;
+	height: 1400px;
+	background-color: #f2f2f2;
+	padding: 5px;
+}
+
+/*section 1
+	side navigation bar*/
+.nav-side
+{
+	background-color: #fff;
+	color: #555;
+	height: 300px;
+	width: 20%;
+	float: left;
+	margin: 1.25%;
+}
+
+.nav-side ul
+{
+	margin: 0;
+	padding: 0 20px;
+}
+
+.nav-side ul li
+{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin: 10px auto ;
+}
+
+
+/*section 2
+	profile data*/
+.profile
+{
+	background-color: #fff;
+	overflow: hidden;
+	width: 75%;
+	margin: 1.25% 1.25% 0 1.25%;
+}
+
+.profile img
+{
+	margin: 20px 20px 10px 20px;
+	width: 100px;
+	border-radius: 50%;
+}
+
+.profile .text h2
+{
+	color: #444;
+	margin: 40px 0 20px;
+}
+
+.profile .text p
+{
+	color: #666;
+}
+
+.profile .text span
+{
+	color: #f00;
+}
+
+.profile .small-form select,.profile .small-form span
+{
+	padding: 5px;
+	text-transform: capitalize;
+}
+.profile .small-form select
+{
+	display: block;
+	width: 120px;
+	margin: 20px;
+	border: 1px solid #ddd;
+}
+
+.profile .small-form span
+{
+	display: block;
+	border: 1px solid #ddd;
+	margin: 20px;
+	text-align: center;
+}
+
+.status ul li h3
+{
+	font-size: 24px;
+}
+
+.status ul
+{
+	padding: 0;
+	overflow: hidden;
+	margin: auto;
+	background-color: #f8f8f8;
+	margin: 0 2.5% 1.25% 1.25%;
+	color: #444;
+}
+
+.status ul li
+{
+	float: left;
+	width: 16.5%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.status ul hr
+{
+	float: left;
+	width: 0px;
+	height: 60px;
+	display: inline-block;
+	border:1px solid #ccc;
+	margin: 3% auto;
+}
+
+
+/*section 3
+	QR*/
+.QR
+{
+	background-color: #980;
+	height: 250px;
+	width: 20%;
+	float: left;
+	margin: 2.5%;
+}
+
+
+
+/*section 4
+	items area*/
+.items
+{
+	background-color: #989;
+	height: 750px;
+	width: 70%;
+	float: right;
+	margin: 2.5%;
+}
+
+
+
+
+.fl-left
+{
+	float: left;
+}
+
+.fl-right
+{
+	float: right;
+}
+
+.fl-clear
+{
+	clear: both;
+}
